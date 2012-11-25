@@ -7,6 +7,18 @@ By creating 'bundles' of hacks packaged into web applications that leverage the 
 
 HTML5 Hacks represents a crossroads between open source social coding, 'Maker' culture, and application development with future-friendly, standards based, web technologies. 
 
+New to Git?
+-----------
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows. For getting started with Git see [git-scm.com](http://git-scm.com/) as a starting point.
+
+
+New to Github?
+-----------
+GitHub is one of the most popular places to host open source code, because it's free for open source projects and has good integration with the open-source version control system Git. Github's documentation is outstanding, so for more on using Git and Github see [Github help](https://help.github.com) as a starting point.
+
+
 Quick start
 -----------
 
@@ -34,16 +46,15 @@ $ cd chapter2
 
 ## Setting up Dependencies
 
-1. Install [node.js](http://nodejs.org/#download).
+Install [node.js](http://nodejs.org/#download).
 
-2. Make sure your current directory is chapter2 before step 3.
+Make sure your current directory is chapter2 before step 3.
 
 <pre>
-$ cd
-[your repos path]/chapter2
+$ cd [your repos path]/chapter2
 </pre>
 
-3. Install dependencies using the node package manger (npm).
+Install dependencies using the node package manger (npm).
 
 <pre>
 $ sudo npm install
@@ -51,20 +62,9 @@ $ sudo npm install
 
 ## Running the App
 
-1. Start the chapter2 demo server from a different terminal window:
+Start the chapter2 demo server from a different terminal window:
 <pre>
 $ node app
 </pre>
-2. Visit [http://localhost:3000](http://localhost:3000) in a web browser.
 
-
-New to Git?
------------
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-
-Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows. For getting started with Git see [git-scm.com](http://git-scm.com/) as a starting point.
-
-
-New to Github?
------------
-GitHub is one of the most popular places to host open source code, because it's free for open source projects and has good integration with the open-source version control system Git. Github's documentation is outstanding, so for more on using Git and Github see [Github help](https://help.github.com) as a starting point.
+Visit [http://localhost:3000](http://localhost:3000) in a web browser.
