@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Radley';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Radley'), url('http://themes.googleusercontent.com/static/fonts/radley/v6/fE3I-GlsFHTITnHGmv57XA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lovers Quarrel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lovers Quarrel'), local('LoversQuarrel-Regular'), url('http://themes.googleusercontent.com/static/fonts/loversquarrel/v1/gipdZ8b7pKb89MzQLAtJHGjFZxIsbLQU7tGBbP55JRc.woff') format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url('http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff') format('woff');
+}
+
+.fontHeader {
+    font-family: Radley, Arial, sans-serif;
+    }
+    
+h2.fontHeader {
+    font-size: 12em;
+    line-height: 1em;
+    font-family: Lovers Quarrel, Arial, sans-serif;
+    text-align: center;
+    color: #c91c10;
+    
+}
+
+.smallFont {
+	font-family: Dosis, Arial, sans-serif;
+	text-align: justify;
+	}

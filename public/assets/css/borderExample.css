@@ -1,0 +1,18 @@
+.borderRadiusClass {
+border: 1px solid #777;
+border-radius: 15px 15px 15px 15px
+}
+
+.myShadowClass {
+box-shadow: 3px 3px 5px 5px #ddd;
+}
+
+.borderImageClass {
+border-image:url(../img/borderImage.png) 49% stretch;  /*why webkit border image vs border image has different treatments */
+
+border-width: 20px;
+color: white;
+font-weight: 800;
+}
+    
+    

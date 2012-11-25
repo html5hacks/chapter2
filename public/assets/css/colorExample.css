@@ -1,0 +1,75 @@
+.color-sample {
+    position: relative;
+    
+}
+
+.color-sample div {
+    
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    
+    
+    }
+    
+ .one.opacit {
+    background-color: rgb(0, 255, 0);
+    opacity: .5;
+    }
+    
+ .two.opacity {
+    background-color: rgb(255, 0, 0);
+     opacity: .5;
+    }
+    
+.three.opacity {
+
+    background-color: rgb(0, 0, 255 );
+    opacity: .5;
+}
+    
+    
+.color-sample .two {
+    top: 30px;
+    left: 30px;
+    background-color: rgb(255, 0, 0);
+    }
+    
+.color-sample .three {
+    top: 0;
+    left: 60px;
+    background-color: rgb(0, 0, 255 );
+    }
+    
+.color-sample p {
+    position: relative;
+    top: 120px;
+    left: 30px;
+    font-weight: 800;
+    color: black;
+    
+    }
+    
+    
+
+
+
+
+.alpha.one {
+    background-color: rgba(0, 255, 0, .5);
+    }
+    
+.alpha.two {
+
+    background-color: rgba(255, 0, 0, .5);
+    }
+    
+.alpha.three {
+    background-color: rgba(0, 0, 194, .5 );
+    }
+    
+    
+    
+    

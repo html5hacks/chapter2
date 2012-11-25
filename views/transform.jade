@@ -1,0 +1,43 @@
+link(href='assets/css/cardFlip.css', rel='stylesheet')
+
+.container
+
+      .marketing
+        h1.fontHeader Hack #25 Make iOS style Flips with CSS3
+        p.marketing-byline Use css3 transforms along with transitions to recreate the iOS style card flip
+        .row
+            .viewPort
+                .card#card
+                    .frontView 
+                        img(src="http://www.w3.org/html/logo/downloads/HTML5_Logo_256.png") 
+                        span Hacks
+                    .backView Rocks!
+
+            button.controls flip
+      
+    script(type='text/javascript')
+        document.querySelector('.controls').addEventListener('click', function(){
+            var elem = document.querySelector('.card');
+            elem.className = (elem.className == 'card')?'card flipped':'card';
+        });
+
+    script(type='text/javascript', src='http://platform.twitter.com/widgets.js')
+    script(src='assets/js/jquery.js')
+    script(src='assets/js/google-code-prettify/prettify.js')
+    script(src='assets/js/bootstrap-transition.js')
+    script(src='assets/js/bootstrap-alert.js')
+    script(src='assets/js/bootstrap-modal.js')
+    script(src='assets/js/bootstrap-dropdown.js')
+    script(src='assets/js/bootstrap-scrollspy.js')
+    script(src='assets/js/bootstrap-tab.js')
+    script(src='assets/js/bootstrap-tooltip.js')
+    script(src='assets/js/bootstrap-popover.js')
+    script(src='assets/js/bootstrap-button.js')
+    script(src='assets/js/bootstrap-collapse.js')
+    script(src='assets/js/bootstrap-carousel.js')
+    script(src='assets/js/bootstrap-typeahead.js')
+    script(src='assets/js/application.js')
+
+
+
+

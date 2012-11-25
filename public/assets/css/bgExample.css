@@ -1,0 +1,15 @@
+
+
+
+
+
+.backGroundTest{
+ 
+ background-image: url(../img/tree.png),url(../img/mountains.png),url(../img/sky.png);
+ background-color: #f2f7fb;
+ background-position: right bottom, left bottom, top left;
+ background-repeat: no-repeat, no-repeat, repeat-x;
+ height: 300px;
+    
+    
+}
