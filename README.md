@@ -46,16 +46,15 @@ $ cd chapter2
 
 ## Setting up Dependencies
 
-1. Install [node.js](http://nodejs.org/#download).
+Install [node.js](http://nodejs.org/#download).
 
-2. Make sure your current directory is chapter2 before step 3.
+Make sure your current directory is chapter2 before step 3.
 
 <pre>
-$ cd
-[your repos path]/chapter2
+$ cd [your repos path]/chapter2
 </pre>
 
-3. Install dependencies using the node package manger (npm).
+Install dependencies using the node package manger (npm).
 
 <pre>
 $ sudo npm install
@@ -63,8 +62,10 @@ $ sudo npm install
 
 ## Running the App
 
-1. Start the chapter2 demo server from a different terminal window:
+Start the chapter2 demo server from a different terminal window:
+
 <pre>
 $ node app
 </pre>
-2. Visit [http://localhost:3000](http://localhost:3000) in a web browser.
+
+Visit [http://localhost:3000](http://localhost:3000) in a web browser.
