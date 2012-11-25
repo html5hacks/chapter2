@@ -63,6 +63,7 @@ $ sudo npm install
 ## Running the App
 
 Start the chapter2 demo server from a different terminal window:
+
 <pre>
 $ node app
 </pre>
